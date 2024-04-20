@@ -1,4 +1,4 @@
-# Frontend Implementaion Of Reli.AI UI - Frame Work Agnostic
+# Frontend Implementaion Of Reli.AI UI - FrameWork Agnostic
  [Figma Ui Link](https://www.figma.com/file/dlsl6isHx91fqiifqkib9G/Reli.AI?type=design&node-id=0%3A1&mode=design&t=AoEYYCEGAVkAAwdl-1)
 
  ## Design Choice
@@ -8,3 +8,10 @@
    - HTML
    - CSS
    - Tailwind
+
+### Feature
+   - Well Documented and Commented Code
+   - Responsive Design Works On All Screen Size
+   - Extensible , Maintainable Project Structure Can Be Easily Extended For New Features
+
+
