@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reli AI - Chat</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+<body class="bg-opacity-80">
+    
+    <!-- Header Component-->
+    <div class="w-full flex flex-wrap sm:flex-nowrap justify-between bg-secondary p-2 drop-shadow-md">
+        
+        <!--Logo-->
+        <div>
+            <a href="./index.html">
+
+                <img src="./assets/image.png" class="h-12 w-24"/>
+            </a>
+        </div>
+
+        <!--RightSide Buttons-->
+        <div>
+            <button class="btn p-2 py-3 rounded-md drop-shadow-md w-24 hover:opacity-80 m-2"><a href="./login.html">Logout</a></button>
+        </div>
+        
+    </div>
+    
+    <!--Chat Container-->
+    <div class="max-h-96 overflow-y-auto w-full flex flex-col text-white gap-4 py-8" style="background: url('./assets/undraw_chat_bot_re_e2gj.png') center center/50% fixed no-repeat;">
+        <span class="bg-primary rounded rounded-br-none p-4 self-end mr-4">Hellow</span>
+        <span class="bg-secondary rounded rounded-bl-none p-4 ml-4 mr-12">Great! How can I assist you today?</span>
+        <span class="bg-primary p-4 rounded self-end mr-4">Great Who Are You ?</span>
+        <span class="bg-secondary rounded rounded-bl-none p-4 ml-4 mr-12">"I'm Reli.Ai, your virtual assistant designed to help with a myriad of  tasks and inquiries. With a vast knowledge base and linguistic prowess, I  aim to provide insightful and engaging conversations. Whether you need  assistance, information, or just a friendly chat, I'm here to lend a  digital hand.</span>
+        <span class="bg-primary p-4 rounded rounded-br-none self-end mr-4">
+            What is your ability ?
+        </span>
+        <span class="bg-secondary rounded rounded-bl-none p-4 ml-4 mr-12">
+            I possess the ability to generate text across various topics and engage  in meaningful conversations. With language understanding and generation  capabilities, I aim to assist users in a wide range of tasks and  inquiries
+        </span>
+
+
+    </div>
+
+
+    <!--User Input Container-->
+    <div class="flex items-center fixed bottom-1 w-full m-2 gap-2">
+        <div class="w-full relative">
+
+            <input placeholder="Start Typing" class="w-full text-center p-4 shadow-lg rounded-md bg-secondary outline-none font-semibold text-lg text-white"/>
+            <div class="absolute flex items-center gap-2 right-8 bottom-4">
+                <img src="./assets/emoji-happy.png" class="w-8 h-8"/>
+                <img src="./assets/microphone-2.png" class="w-8 h-8"/>
+                <img src="./assets/paperclip-2.png" class="w-8 h-8"/>
+             
+            </div>
+        </div>
+        <button class="rounded-full text-center bg-secondary shadow-lg p-4 hover:opacity-80 mr-2">
+            <img src="./assets/icon _chevron right_.png" class="w-8 h-8"/>
+        </button>
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>

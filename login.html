@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reli AI - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body class="bg-opacity-80 h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 h-full text-white">
+
+        <!--Left Side Column-->
+        <div class="w-full h-full flex flex-col items-center bg-secondary py-2 gap-4 px-8">
+          
+           <!--Logo-->
+            <img src="./assets/image.png" class="w-32 h-16" />
+
+           <!--Login--> 
+            <h1 class="text-center font-bold text-2xl my-12">Login</h1>
+
+           <!--Username--> 
+           <div class="w-full">
+               <input placeholder="username" class="p-4 pl-12 rounded-md drop-shadow-md w-full" />
+            </div>
+            <!--Password--> 
+            <div class="w-full">
+                <input placeholder="password" class="p-4 pl-12 rounded-md drop-shadow-md w-full" />
+            </div>
+
+            <!--Remember And Forgot PW Container-->
+            <div class="w-full flex justify-between">
+                <div class="flex items-center gap-2">
+                    <input type="checkbox" class="rounded-md drop-shadow-md" />
+                    <label class="">Remember Me</label>
+
+                </div>
+                <span class="hover:underline">Forgot Password ?</span>
+            </div>
+            
+            <!--Login Button-->
+            <div class="w-full">
+                <button
+                    class="text-center bg-secondary shadow-md py-4 rounded-md drop-shadow-md w-full font-semibold hover:opacity-80"><a href="./index.html">Login</a></button>
+            </div>
+
+            <span>Or</span>
+
+            <!--Google SignUP Container-->
+            <div class="w-full relative">
+                <button placeholder="password"
+                    class="text-center shadow-md bg-secondary py-4 rounded-md drop-shadow-md w-full font-semibold hover:opacity-80">
+
+                    SignUp With Google</button>
+                <img src="./assets/google-color-svgrepo-com.png" class="absolute left-4 top-4 top-4 h-8 w-8" />
+            </div>
+            
+            <!--Signup Container-->
+            <div class="w-full flex justify-between">
+                <span class="invisible sm:visible">Don't Have An Account Yet ?</span>
+                <span class="hover:underline whitespace-nowrap">SignUp For Free</span>
+            </div>
+        </div>
+
+        <!--Right Side Column -- hidden for small screen-->
+        <div class="hidden md:block relative">
+            <img src="assets/undraw_secure_login_pdn4.png" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72"/>
+            <img src="assets/undraw_fingerprint_login_re_t71l.png" style="transform:scaleX(-1)" class="absolute bottom-1 right-4 w-64 h-96"/>
+        </div>
+    </div>
+</body>
+
+</html>
